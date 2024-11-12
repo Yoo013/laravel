@@ -1,0 +1,14 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+<?php
+
+use Filament\Panel;
+ 
+public function panel(Panel $panel): Panel
+{
+    return $panel
+        // ...
+        ->darkMode(false);
+}

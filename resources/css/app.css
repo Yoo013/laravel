@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.filament-sidebar {
+    background-color: #000000 !important; /* Set sidebar background color to black */
+}
